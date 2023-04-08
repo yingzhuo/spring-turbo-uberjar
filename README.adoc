@@ -1,0 +1,29 @@
+== spring-turbo-uberjar
+
+image:https://img.shields.io/badge/License-Apache%202.0-red.svg[link="http://www.apache.org/licenses/LICENSE-2.0"]
+image:https://img.shields.io/maven-central/v/com.github.yingzhuo/spring-turbo.svg?label=Maven%20Central[link="https://search.maven.org/search?q=g:%22com.github.yingzhuo%22%20AND%20a:%22spring-turbo%22"]
+
+=== 需求
+
+[options="header",format="psv"]
+|====
+| 软件             | 版本
+| JDK             | 17+
+| SpringFramework | 6.0.0+
+| SpringBoot      | 3.0.0+
+| SpringSecurity  | 6.0.0+
+|====
+
+=== ISSUES
+
+* link:https://github.com/yingzhuo/spring-turbo-modules/issues[Github Issues]
+
+=== 许可证
+
+* link:{docdir}/LICENSE.txt[Apache-2.0]
+
+=== 联系我
+
+* 微信: _yingzhor_
+* QQ: _23007067_
+* 电子邮件: _mailto:yingzhor@gmail.com[yingzhor@gmail.com]_
