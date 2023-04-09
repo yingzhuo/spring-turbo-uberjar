@@ -41,6 +41,27 @@
     <url>git@github.com:yingzhuo/spring-turbo-uberjar.git</url>
   </scm>
   <build>
+    <resources>
+      <resource>
+        <directory>${project.basedir}/src/main/java</directory>
+        <excludes>
+          <exclude>**/.gitkeep</exclude>
+          <exclude>**/*.bak</exclude>
+          <exclude>**/*.java</exclude>
+          <exclude>**/*.kt</exclude>
+          <exclude>**/*.groovy</exclude>
+          <exclude>**/*.scala</exclude>
+        </excludes>
+      </resource>
+      <resource>
+        <directory>${project.basedir}/src/main/resources</directory>
+        <excludes>
+          <exclude>**/.gitkeep</exclude>
+          <exclude>**/*.bak</exclude>
+        </excludes>
+      </resource>
+    </resources>
+    <finalName>${project.artifactId}-${project.version}</finalName>
     <plugins>
       <plugin>
         <artifactId>maven-compiler-plugin</artifactId>

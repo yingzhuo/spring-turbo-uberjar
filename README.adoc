@@ -5,7 +5,18 @@ image:https://img.shields.io/maven-central/v/com.github.yingzhuo/spring-turbo.sv
 
 === 关于本项目
 
-⚠️ 本项目为实验性的，不会真正把文件发布到maven中央仓库。
+⚠️ 本项目为实验性的，作者未尝试在生产中使用本项目。
+
+=== 安装 (Maven)
+
+[maven,xml]
+----
+<dependency>
+    <groupId>com.github.yingzhuo</groupId>
+    <artifactId>spring-turbo-uberjar</artifactId>
+    <version>LATEST</version>
+</dependency>
+----
 
 === 需求
 

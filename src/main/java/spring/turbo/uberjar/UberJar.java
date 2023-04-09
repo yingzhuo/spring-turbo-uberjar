@@ -9,6 +9,8 @@
 package spring.turbo.uberjar;
 
 /**
+ * 本类之用来生成 xxx-sources.jar 和 xxx-javadoc.jar
+ *
  * @author 应卓
  * @since 2.2.0
  */

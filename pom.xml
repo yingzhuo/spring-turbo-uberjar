@@ -139,6 +139,31 @@
     </dependencies>
 
     <build>
+        <finalName>${project.artifactId}-${project.version}</finalName>
+
+        <resources>
+            <resource>
+                <directory>${project.basedir}/src/main/java</directory>
+                <filtering>false</filtering>
+                <excludes>
+                    <exclude>**/.gitkeep</exclude>
+                    <exclude>**/*.bak</exclude>
+                    <exclude>**/*.java</exclude>
+                    <exclude>**/*.kt</exclude>
+                    <exclude>**/*.groovy</exclude>
+                    <exclude>**/*.scala</exclude>
+                </excludes>
+            </resource>
+            <resource>
+                <directory>${project.basedir}/src/main/resources</directory>
+                <filtering>false</filtering>
+                <excludes>
+                    <exclude>**/.gitkeep</exclude>
+                    <exclude>**/*.bak</exclude>
+                </excludes>
+            </resource>
+        </resources>
+
         <plugins>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
