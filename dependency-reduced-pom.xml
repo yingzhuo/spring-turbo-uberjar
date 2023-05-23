@@ -9,7 +9,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.github.yingzhuo</groupId>
   <artifactId>spring-turbo-uberjar</artifactId>
-  <version>3.1.0</version>
+  <version>3.1.1-SNAPSHOT</version>
   <description>Another enhancement library of SpringBoot/SpringFramework. Have fun.</description>
   <url>https://github.com/yingzhuo/spring-turbo-uberjar</url>
   <issueManagement>
@@ -99,7 +99,7 @@
       </plugin>
       <plugin>
         <artifactId>maven-source-plugin</artifactId>
-        <version>3.2.1</version>
+        <version>3.3.0</version>
         <executions>
           <execution>
             <id>attach-sources</id>
