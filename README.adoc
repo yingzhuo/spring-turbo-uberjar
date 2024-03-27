@@ -5,7 +5,8 @@ image:https://img.shields.io/maven-central/v/com.github.yingzhuo/spring-turbo.sv
 
 === 关于本项目
 
-⚠️ 本项目为实验性的，作者未尝试在生产中使用本项目。
+⚠️ 本项目为实验性的，作者未尝试在生产中使用本项目。 <br>
+⚠️ 本项目停止更新。
 
 === 安装 (Maven)
 
